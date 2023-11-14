@@ -4,7 +4,7 @@ import asyncio
 import json
 import re
 import requests
-from bs4 import BS
+from bs4 import BeautifulSoup as BS
 from functools import partial
 from requests.compat import urljoin
 from typing import List, Optional
