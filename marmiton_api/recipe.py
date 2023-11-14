@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Marmiton API types"""
+"""Marmiton API Recipe related types"""
 
 from enum import Enum
 
@@ -41,7 +41,7 @@ class RecipeType(Enum):
     ADVICE = 'conseil'
 
 
-class Recipe(object):
+class Recipe:
     """
     Recipe class.
     """
